@@ -1,0 +1,36 @@
+{
+  "name": "lightsocks-nodejs",
+  "version": "1.0.0",
+  "description": "It's a simaple socks5 proxy tool which based on lightsocks",
+  "preferGlobal": true,
+  "bin": {
+    "lsserver":"./bin/lsserver.js",
+    "lslocal":"./bin/lslocal.js"
+  },
+  "scripts": {
+    "server:debug": "export DEBUG=* && node ./bin/lsserver.js",
+    "local:debug": "export DEBUG=* && node ./bin/lslocal.js",
+    "server": "node ./bin/lsserver.js",
+    "local": "node ./bin/lslocal.js"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "keywords": [
+    "socks",
+    "socks5",
+    "proxy"
+  ],
+  "repository": "https://gitub.com/chrisyer/lightsocks-nodejs",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3",
+    "debug": "^3.1.0",
+    "commander": "^2.15.0",
+    "pkginfo": "^0.4.1",
+    "url-parse-lax": "^3.0.0"
+  },
+  "devDependencies": {
+
+  }
+}
