@@ -21,7 +21,7 @@
     "socks5",
     "proxy"
   ],
-  "repository": "https://gitub.com/chrisyer/lightsocks-nodejs",
+  "repository": "https://github.com/chrisyer/lightsocks-nodejs",
   "license": "MIT",
   "dependencies": {
     "through2": "^2.0.3",
