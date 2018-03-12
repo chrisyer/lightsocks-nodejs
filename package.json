@@ -4,14 +4,15 @@
   "description": "It's a simaple socks5 proxy tool which based on lightsocks",
   "preferGlobal": true,
   "bin": {
-    "lsserver":"./bin/lsserver.js",
-    "lslocal":"./bin/lslocal.js"
+    "lsserver": "./bin/lsserver.js",
+    "lslocal": "./bin/lslocal.js"
   },
   "scripts": {
     "server:debug": "export DEBUG=* && node ./bin/lsserver.js",
     "local:debug": "export DEBUG=* && node ./bin/lslocal.js",
     "server": "node ./bin/lsserver.js",
-    "local": "node ./bin/lslocal.js"
+    "local": "node ./bin/lslocal.js",
+    "test": "jest"
   },
   "engines": {
     "node": ">= 8"
@@ -31,6 +32,6 @@
     "url-parse-lax": "^3.0.0"
   },
   "devDependencies": {
-
+    "jest": "^22.4.2"
   }
 }

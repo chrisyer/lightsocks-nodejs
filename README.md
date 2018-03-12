@@ -31,7 +31,7 @@ sudo npm install -g lightsocks-nodejs
     -h, --help              output usage information
 
 ```
-如果不加任何参数，默认在当前用户文件下下生成配置文件。
+如果不加任何参数，默认在当前用户文件夹下生成配置文件。
 
 ### lslocal
 用于运行在本地电脑的客户端，用于桥接本地浏览器和远程代理服务，传输前会混淆数据
@@ -52,11 +52,13 @@ sudo npm install -g lightsocks-nodejs
 ```
 
 ## TODOS
+
 - [ ] 单元测试
 - [ ] lsserver/lslocal重写
 - [ ] 优化日志输出
+- [ ] 添加注释/代码格式化
 
 ## 相关
-- [lightsocks](https://github.com/gwuhaolin/lightsocks):Go 实现版本
+- [lightsocks](https://github.com/gwuhaolin/lightsocks)： Go 实现版本
 - [lightsocks-python](https://github.com/linw1995/lightsocks-python)：Python 实现版本；
 - [lightsocks-android](https://github.com/XanthusL/LightSocks-Android)：Android 实现版本；

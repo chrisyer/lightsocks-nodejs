@@ -61,10 +61,6 @@ console.log(`-------------------------------\n`+
     `密码：${configObj.password}\n`+
     `---------------------------\n`);
 let listenAddr = getAddr(configObj.listen);
-listenAddr = {
-    host:'0.0.0.0',
-    port:8000
-}
 const server = new Server(configObj.password,listenAddr);
 
 server.listen();
