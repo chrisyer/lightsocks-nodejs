@@ -40,13 +40,21 @@ if(program.password){
     }
 }
 if(program.listen){
-    configObj.listen = program.listen;
+    if(program.listen.split(':').length === 1){
+        configObj.listen = "0.0.0.0:"+program.listen;
+    }else {
+        configObj.listen = program.listen;
+    }
 }else {
     if(!configObj.listen){
         configObj.listen = '0.0.0.0:7448';
     }
 }
 if(program.remote){
+    if(program.remote.split(':').length !== 2){
+        console.error('请按照<ip_address>:port的格式定义远程地址');
+        process.exit(1);
+    }
     configObj.remote = program.remote;
 }else{
     if(!configObj.remote){

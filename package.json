@@ -1,6 +1,6 @@
 {
   "name": "lightsocks-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It's a simaple socks5 proxy tool which based on lightsocks",
   "preferGlobal": true,
   "bin": {
@@ -15,7 +15,7 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">=8"
   },
   "keywords": [
     "socks",

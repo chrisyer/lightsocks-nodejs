@@ -11,6 +11,7 @@ require('pkginfo')(module);
 
 function getAddr(addr) {
     let url = urlParseLax(addr);
+
     return {
         host:url.hostname,
         port:url.port
@@ -49,7 +50,12 @@ if(program.password){
     }
 }
 if(program.listen){
-    configObj.listen = program.listen;
+    if(program.listen.split(':').length === 1){
+        configObj.listen = "0.0.0.0:"+program.listen;
+    }else {
+        configObj.listen = program.listen;
+    }
+
 }else {
     if(!configObj.listen){
         configObj.listen = "0.0.0.0:" +  Math.floor(Math.random() * (49151-1024) + 1024);
