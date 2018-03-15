@@ -8,8 +8,8 @@
     "lslocal": "./bin/lslocal.js"
   },
   "scripts": {
-    "server:debug": "export DEBUG=* && node ./bin/lsserver.js",
-    "local:debug": "export DEBUG=* && node ./bin/lslocal.js",
+    "server:debug": "export NODE_ENV=debug && node ./bin/lsserver.js",
+    "local:debug": "export NODE_ENV=debug && node ./bin/lslocal.js",
     "server": "node ./bin/lsserver.js",
     "local": "node ./bin/lslocal.js",
     "test": "jest"
@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "through2": "^2.0.3",
-    "debug": "^3.1.0",
+    "log4js": "^2.5.3",
     "commander": "^2.15.0",
     "pkginfo": "^0.4.1",
     "url-parse-lax": "^3.0.0"
