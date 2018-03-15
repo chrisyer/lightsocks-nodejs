@@ -55,7 +55,7 @@ sudo npm install -g lightsocks-nodejs
 
 - [ ] 单元测试
 - [ ] lsserver/lslocal重写
-- [ ] 优化日志输出
+- [x] 优化日志输出
 - [ ] 添加注释/代码格式化
 
 ## 相关
