@@ -1,4 +1,8 @@
 # Lightsocks-Nodejs
+[![Travis](https://img.shields.io/travis/chrisyer/lightsocks-nodejs.svg)](https://github.com/chrisyer/lightsocks-nodejs)
+[![npm](https://img.shields.io/npm/v/lightsocks-nodejs.svg)](https://www.npmjs.com/package/lightsocks-nodejs)
+[![npm](https://img.shields.io/npm/l/lightsocks-nodejs.svg)](https://www.npmjs.com/package/lightsocks-nodejs)
+
 
 一个轻量级网络混淆代理，基于 SOCKS5 协议，可用来代替 Shadowsocks。
 

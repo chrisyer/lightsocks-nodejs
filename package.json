@@ -12,10 +12,11 @@
     "local:debug": "export NODE_ENV=debug && node ./bin/lslocal.js",
     "server": "node ./bin/lsserver.js",
     "local": "node ./bin/lslocal.js",
-    "test": "jest"
+    "test": "npm run lint && jest",
+    "lint": "./node_modules/.bin/eslint ./lib --fix"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=8.0.0"
   },
   "keywords": [
     "socks",
