@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "through2": "^2.0.3",
-    "log4js": "^2.5.3",
+    "log4js": "^6.0.0",
     "commander": "^2.15.0",
     "pkginfo": "^0.4.1",
     "url-parse-lax": "^3.0.0"
