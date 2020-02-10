@@ -12,6 +12,7 @@
     "local:debug": "export NODE_ENV=debug && node ./bin/lslocal.js",
     "server": "node ./bin/lsserver.js",
     "local": "node ./bin/lslocal.js",
+    "coverage": "jest --coverage",
     "test": "npm run lint && jest",
     "lint": "./node_modules/.bin/eslint ./lib --fix"
   },
