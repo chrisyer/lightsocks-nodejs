@@ -34,7 +34,7 @@
     "url-parse-lax": "^3.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^10.1.0",
     "eslint": "^4.19.1",
     "eslint-config-alloy": "^1.4.1",
     "jest": "^25.1.0"
