@@ -30,7 +30,7 @@
     "commander": "^2.20.3",
     "log4js": "^6.1.1",
     "pkginfo": "^0.4.1",
-    "through2": "^2.0.5",
+    "through2": "^4.0.2",
     "url-parse-lax": "^3.0.0"
   },
   "devDependencies": {
