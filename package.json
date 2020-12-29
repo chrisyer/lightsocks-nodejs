@@ -36,7 +36,7 @@
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
-    "eslint-config-alloy": "^1.4.1",
+    "eslint-config-alloy": "^3.10.0",
     "jest": "^25.1.0"
   }
 }
