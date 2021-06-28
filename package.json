@@ -37,6 +37,6 @@
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
     "eslint-config-alloy": "^1.4.1",
-    "jest": "^25.1.0"
+    "jest": "^27.0.6"
   }
 }
