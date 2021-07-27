@@ -27,7 +27,7 @@
   "repository": "https://github.com/chrisyer/lightsocks-nodejs",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.20.3",
+    "commander": "^8.1.0",
     "log4js": "^6.1.1",
     "pkginfo": "^0.4.1",
     "through2": "^2.0.5",
